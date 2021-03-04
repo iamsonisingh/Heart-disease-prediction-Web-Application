@@ -1,0 +1,134 @@
+{% load static %}
+{% include 'header.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/0c92ba0482.js"></script>
+
+</head>
+<body class="main-layout">
+    <section class="banner_section">
+        <div class="banner-main">
+
+            <img src="{% static 'images/heart6.jpeg' %}" width="1700">
+
+                <div class="text-bg relative">
+                    <h1>Is your Heart Healthy?</h1></br>
+
+                    <div class="form" align="left">
+                        <ul class="tab-group">
+        <li class="tab active"><a href="#signup" >Sign Up</a></li>
+                            <div class="form" align="right">
+                            <li class="tab active"><a href="#signup">Login In</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="signup">
+          <h1>Sign Up for Free</h1>
+
+          <form action="/" method="post">
+
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" />
+            </div>
+
+            <div class="field-wrap">
+              <label>
+                Last Name<span class="req">*</span>
+              </label>
+              <input type="text"required autocomplete="off"/>
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Set A Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+
+          <button type="submit" class="button button-block"/>Get Started</button>
+
+          </form>
+        </div> </br>
+
+<div class="form" align="right">
+                        <ul class="tab-group">
+        <li class="tab active"><a href="#signup">Login Up</a></li>
+      </ul>
+
+          <h1>Welcome Back!</h1>
+
+          <form action="/" method="post">
+
+            <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+
+          <p class="forgot"><a href="#">Forgot Password?</a></p>
+
+          <button class="button button-block"/>Log In</button>
+
+          </form>
+</div>
+        </div>
+
+      </div><!-- tab-content -->
+
+</div> <!-- /form -->
+
+    </section>
+
+                <section class="info container">
+          <h1 class="mainHeading2">How to know if a heart is healthy?</h1>
+
+                <p>A healthy heart is the key to good life .The heart is a vital organ of the human body which ensures the effective pumping of blood throughout the circulatory system. Due to our sedentary lives and food habits, the heart is prone to malfunctioning, and heart attack (i.e. coronary artery disease), is one of the primary cause of death [1]. Heart attack is caused by a blockage of the coronary arteries, typically at a site of narrowing (stenosis) caused by atherosclerosis. It is difficult to accurately determine the degree of atherosclerosis in arteries, particularly in the early stages of disease. One method that has been introduced is the intravascular ultrasonic catheter (IVUS), which sends a pulse of sound from a receiver and uses the returned echo to deduce the properties of the arterial tissues.</p>
+
+
+            </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+{% include 'footer.html' %}
+</body>
+</html>
