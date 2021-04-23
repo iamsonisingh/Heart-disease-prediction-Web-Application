@@ -1,2 +1,3 @@
-# heart-disease-prediction
-Using Machine Learning predict heat disease patient 
+# Heart-disease-prediction-Web-Application
+Using Machine Learning and Django Framework
+
