@@ -8,14 +8,13 @@ The main goal of this project is to provide a web application for users to predi
 
 Technologies used in the project
 
-•	HTML5 used for development of user interface and the design layout of the pages.
-•	Cascading Style Sheet (CSS3) is used to set the style in web pages that contain HTML elements.
-•	JavaScript is used for all the validation user input validations and to provide some animations in the web site pages.
-•	Python3.9 is used all over in the project for backend part. It used to redirect the input from the user to the machine learning model as well as to interact with the database system.
-•	SQLite3 database has been used as database management system for the project which will contain all the user details and permissions.
-•	Django Framework 3.2 - This is the main component of the system which binds all the other components of system. This provides a safe and strong structure for the application.
-•	Machine Learning is used for data minding, data visualization and mainly to develop an algorithm which will run in the back end of the system, when user requests for the prediction.
-
+•	HTML5 
+•	Cascading Style Sheet (CSS3) 
+•	JavaScript
+•	Python3.9 
+•	SQLite3 database
+•	Django Framework 3.2
+•	Machine Learning
 
 Important modules
 
