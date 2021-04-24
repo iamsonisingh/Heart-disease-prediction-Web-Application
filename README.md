@@ -4,7 +4,7 @@ Using Machine Learning and Django Framework
 Mission
 
 The main goal of this project is to provide a web application for users to predict heart disease as early stage to avoid disastrous consequences and build heathy society. It will help people to know about their heart condition without much spending.
-![image](https://user-images.githubusercontent.com/80016588/115943705-7581ea80-a466-11eb-9eb8-471f866b7b21.png)
+
 
 Technologies used in the project
 
@@ -15,7 +15,7 @@ Technologies used in the project
 •	SQLite3 database has been used as database management system for the project which will contain all the user details and permissions.
 •	Django Framework 3.2 - This is the main component of the system which binds all the other components of system. This provides a safe and strong structure for the application.
 •	Machine Learning is used for data minding, data visualization and mainly to develop an algorithm which will run in the back end of the system, when user requests for the prediction.
-![image](https://user-images.githubusercontent.com/80016588/115943723-99453080-a466-11eb-8e15-f0f76ae4e9a7.png)
+
 
 Important modules
 
@@ -55,4 +55,4 @@ Prediction page for the users who might be suffering from the heart disease
 Admin Page
 ![image](https://user-images.githubusercontent.com/80016588/115943861-330cdd80-a467-11eb-8ac2-ea16f64ae7a3.png)
 
-Machine Learning Module - The machine le![image](https://user-images.githubusercontent.com/80016588/115943762-be39a380-a466-11eb-88a3-61badf575554.png)
+
