@@ -1,7 +1,8 @@
 from django.db import models
 
-# Create your models here.
-class userInfo(models.Model):
+#Create your models here.
+class userInfoModel(models.Model):
+    user=models.CharField(max_length=100)
     age=models.IntegerField()
     sex=models.CharField(max_length=10) # max_length = required
     cp=models.TextField()
@@ -16,6 +17,8 @@ class userInfo(models.Model):
     ca=models.IntegerField()
     thal=models.CharField(max_length=50)
 
-class user(models.Model):
-    username = models.TextField()
-    password = models.TextField()
+class userModel(models.Model):
+    # fields of the model
+    username = models.CharField(max_length=100)
+    password = models.CharField(max_length=200)
+    email = models.CharField(max_length=200)

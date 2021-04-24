@@ -13,11 +13,16 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.contrib import admin
 from django.urls import path
+from django.conf import settings
+from django.conf.urls.static import static
+
+
 
 #custom pages
-from pages.views import home_view, contact_view, user_heart_info_view, about_view, footer_view, prediction_page_view, login_view
+from pages.views import home_view, contact_view,change_password_view, user_heart_info_view, about_view, footer_view, prediction_page_view, login_view, header_view, login_validation_view, registration_view, profile_view, user_info_view, login_failure_view, user_heart_info_save_view, user_heart_info_save_display_view, change_password_view_record
 
 urlpatterns = [
     #create diff pages and route that here like contact etc
@@ -28,8 +33,17 @@ urlpatterns = [
     path('footer/', footer_view, name='footer'),
     path('prediction/', prediction_page_view, name='prediction'),
     path('login/', login_view, name='login'),
-    path('admin/', admin.site.urls)
-
+    path('loginValidation/', login_validation_view, name='loginValidation'),
+    path('register/', registration_view, name='register'),
+    path('header/', header_view, name='header'),
+    path('profile/', profile_view, name='profile'),
+    path('userDetails/', user_info_view, name='userDetails'),
+    path('loginFailure/', login_failure_view, name='loginFailure'),
+    path('userHeartInfoSave/', user_heart_info_save_view, name='userHeartInfoSave'),
+    path('userHeartInfoSaveDisplay/', user_heart_info_save_display_view, name='userHeartInfoSaveDisplay'),
+    path('admin/', admin.site.urls),
+    path('change_password/', change_password_view, name='change_password'),
+    path('change_password_success_page/', change_password_view_record, name='change_password_success_page'), 
 ]
 
 
